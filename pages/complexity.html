@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!-- Meta data for the page -->
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="website.css">
+        <link rel="icon" href="../images/favicon.png">
+        <title>Handling Complexity Reflection</title>
+    </head>
+    <!-- all visible content 
+    
+style="width: 75%; height: 100vh; margin-top: 20px; text-align: center;"
+
+    -->
+    <body>
+        <div class="header center">
+            <div class="title-container center">
+                <a class="white" href="../index.html">
+                    <h1>Sam Scheck</h1>
+                </a>
+                <h5>they/them</h5>
+            </div>
+        </div>
+            <h2 class="head">&emsp;&emsp;&emsp;&emsp;Handling Complexity Reflection:</h2><br>
+            <div class="center block">
+                <p>
+                    I chose this item to reflect on because I think it showcases the themes of the class that I liked so much. The nuances of data visualization 
+                    helps the author create a viz that the user can understand, or a viz that handles the complexity of the data for the user. <br><br>This assignment helped 
+                    me to get some more exposure to complex/ambitious visualizations. It was the first time I was seeing and analyzing more than just a trivial viz. 
+                    It helped me to imagine what else was possible in terms of visualizing complex data. For example, I really like the visualization that had to do 
+                    with basketball. The juxtaposed views and interaction are seamless. I especially liked that the interaction affected each juxtaposed view, as they 
+                    were all representations of the same spatial data. <br><br>Outside of class, this activity helped me understand that research about the possibilities of 
+                    a concept is super important to do before assuming you already know the depth of what you are trying to do. In addition on a more practical note, 
+                    now I know so much more about the possibilities of vizes I could make after having so much more of an interest in data visualization taking this class. 
+                </p>
+            </div>
+            <br><br>
+            <style>
+                img {
+                    vertical-align: middle;
+                }
+                
+                /* Position the image container (needed to position the left and right arrows) */
+                .container {
+                    position: relative;
+                }
+                
+                /* Hide the images by default */
+                .mySlides {
+                    display: none;
+                }
+                
+                /* Add a pointer when hovering over the thumbnail images */
+                .cursor {
+                    cursor: pointer;
+                }
+                
+                /* Next & previous buttons */
+                .prev,
+                .next {
+                    cursor: pointer;
+                    position: absolute;
+                    top: 40%;
+                    width: auto;
+                    padding: 16px;
+                    margin-top: -50px;
+                    color: white;
+                    font-weight: bold;
+                    font-size: 20px;
+                    border-radius: 0 3px 3px 0;
+                    user-select: none;
+                    -webkit-user-select: none;
+                }
+                
+                /* Position the "next button" to the right */
+                .next {
+                    right: 0;
+                    border-radius: 3px 0 0 3px;
+                }
+                
+                /* On hover, add a black background color with a little bit see-through */
+                .prev:hover,
+                .next:hover {
+                    background-color: rgba(0, 0, 0, 0.8);
+                }
+                
+                /* Number text (1/3 etc) */
+                .numbertext {
+                    color: #f2f2f2;
+                    font-size: 12px;
+                    padding: 8px 12px;
+                    position: absolute;
+                    top: 0;
+                }
+                
+                /* Container for image text */
+                .caption-container {
+                    text-align: center;
+                    background-color: #222;
+                    padding: 2px 16px;
+                    color: white;
+                }
+                
+                .row:after {
+                    content: "";
+                    display: table;
+                    clear: both;
+                }
+                
+                /* Six columns side by side */
+                .column {
+                    float: left;
+                    width: 7.69%;
+                }
+                
+                /* Add a transparency effect for thumnbail images */
+                .demo {
+                    opacity: 0.6;
+                }
+                
+                .active,
+                .demo:hover {
+                    opacity: 1;
+                }
+            </style>
+    
+            <div class="gallery container">
+                <div class="mySlides">
+                <div class="numbertext">1 / 4</div>
+                <img src="../images/436_portfolio/complexity1.png" style="width:100%">
+                </div>
+            
+                <div class="mySlides">
+                <div class="numbertext">2 / 4</div>
+                <img src="../images/436_portfolio/complexity2.png" style="width:100%">
+                </div>
+            
+                <div class="mySlides">
+                <div class="numbertext">3 / 4</div>
+                <img src="../images/436_portfolio/complexity3.png" style="width:100%">
+                </div>
+                
+                <div class="mySlides">
+                <div class="numbertext">4 / 4</div>
+                <img src="../images/436_portfolio/complexity4.png" style="width:100%">
+                </div>
+                
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+            
+                <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img class="demo cursor" src="../images/436_portfolio/complexity1.png" style="width:100%" onclick="currentSlide(1)" alt='page 1 / 4'>
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="../images/436_portfolio/complexity2.png" style="width:100%" onclick="currentSlide(2)" alt='page 2 / 4'>
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="../images/436_portfolio/complexity3.png" style="width:100%" onclick="currentSlide(3)" alt='page 3 / 4'>
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="../images/436_portfolio/complexity4.png" style="width:100%" onclick="currentSlide(4)" alt='page 4 / 4'>
+                </div>
+            </div>
+            <br><br>
+        <div class="block">
+            <table class="center">
+                <tr>
+                    <td>
+                        <a href="resume.html">
+                            <span title="resume">
+                                <img src="../images/resume.png" alt="resume logo">
+                            </span>
+                        </a>
+                    </td>
+                    <td>
+                        <a target="_blank" href="https://github.com/samcscheck">
+                            <span title="github">
+                                <img src="../images/github.png" alt="github logo">
+                            </span>
+                        </a>
+                    </td>
+                    <td>
+                        <a target="_blank" href="https://www.linkedin.com/in/sam-scheck-90562788/">
+                            <span title="linkedin">
+                                <img src="../images/linkedin.png" alt="linkedin logo">
+                            </span>
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <script>
+            let slideIndex = 1;
+            showSlides(slideIndex);
+            
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+            
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+            
+            function showSlides(n) {
+                let i;
+                let slides = document.getElementsByClassName("mySlides");
+                let dots = document.getElementsByClassName("demo");
+                let captionText = document.getElementById("caption");
+                if (n > slides.length) {slideIndex = 1}
+                if (n < 1) {slideIndex = slides.length}
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex-1].style.display = "block";
+                dots[slideIndex-1].className += " active";
+                captionText.innerHTML = dots[slideIndex-1].alt;
+            }
+        </script>
+    </body>
+</html>
